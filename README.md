@@ -47,3 +47,11 @@ To start the Django backend, follow these steps:
    npm start
 
    ```
+
+Create .env file in backend folder with 
+```
+   OPEN_AI_KEY ="sk-XXXXXXXX"
+   PDF_DATA_PATH = "./data"
+   PERSIST_DIRECTORY_DB_PATH = "./chroma_db"
+```
+
